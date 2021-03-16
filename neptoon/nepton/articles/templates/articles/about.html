@@ -1,0 +1,44 @@
+{% extends 'articles/base.html' %}
+
+
+{% load static %}
+
+
+{% block header %}
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{% static "nepton/img/about-bg.jpg" %}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">I'm z3os. not Enough ? :)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+{% endblock %}
+
+
+
+{% block main %}
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>hi My name is Abolfazl Majdi!</p>
+        <p>I'm Back End developer . I code with Django . Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.I'll write an article about this framework later. ِ</p>
+        <p>I can coding with c/c++ too but for now, I write more code with Python and Ruby !</p>
+        <p>you can call me with These ways :</p>
+        <ul>
+            <li>Phone: 9374977914</li>
+            <li>Email: <a href="mailto:abolfazlmajidi1382@gmail.com">abolfazlmajidi1382@gmail.com</a></li>
+            <li>Twitter: Abolfazl Majidi</li>
+            <li>Telegram: @ss727</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
